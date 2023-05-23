@@ -1,3 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  transition: 0.3s;
+}
+
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
+  padding-top: 44px;
+}
+
+img {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 5vh;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.navigation-tabs {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation-tabs li {
+  padding: 0 10px;
+}
+
+.navigation-tabs a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #023047;
+  color: white;
+}
+
+.work {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project a {
+  text-align: center;
+}
+
+.contact {
+  background-color: #023047;
+  margin-top: 5vh;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.contact li {
+  margin: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
 }
