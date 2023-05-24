@@ -188,6 +188,10 @@ a:hover {
     font-size: 0.8em;
   }
 
+  .navbar {
+    height: 7vh;
+  }
+
   .navigation-tabs {
     padding: 0;
     margin: 0 auto;
