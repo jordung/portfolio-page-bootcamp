@@ -52,13 +52,6 @@ h6 {
   font-size: 0.8em;
 }
 
-@media screen and (min-width: 992px) {
-  .navigation-tabs {
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
 .hero {
   height: 100%;
   display: flex;
@@ -229,5 +222,16 @@ a:hover {
   .about img {
     height: 78vh;
     object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 5vh;
+  }
+
+  .navigation-tabs {
+    display: flex;
+    justify-content: flex-end;
   }
 }
